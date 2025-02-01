@@ -10,7 +10,9 @@ jobs:
       - name: Checkout code 
         uses: actions/checkout@v2 
       - name: Run Super-Linter 
-        uses: github/super-linter@v3 
+        uses: github/super-linter@v3
+      - name: 24f1000403@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
         env: 
           DEFAULT BRANCH: main 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
